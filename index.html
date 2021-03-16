@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>New York City Mass Vaccination Map</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Your styles should be called here -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <header>
+        <h1>Map of NYC's Mass Vaccination Sites</h1>
+        <h4>By Jo Constantz | March 23, 2021</h4>
+      </header>
+    </div>
+    <div class="container">
+      <p>Here's an intro to this great graphic.</p>
+    </div>
+    <div class="container image">
+      <div class="collage">
+        <div class="img">
+          <img src="images/javits.jpg" alt="Javits Center" />
+        </div>
+        <div class="img">
+          <img src="images/medgar.jpg" alt="Medgar Evers College" />
+        </div>
+        <div class="img">
+          <img src="images/york.jpg" alt="York College" />
+        </div>
+        <div class="img">
+          <img src="images/aqueduct.jpg" alt="Aqueduct Racetrack" />
+        </div>
+      </div>
+      <p class="caption">Clockwise: The Javits Center, Manhattan (credit: edenpictures, CC BY 2.0); Medgar Evers College, Brooklyn (Jules Antonio, CC BY-SA 2.0); York College, Queens (CUNY Academic Commons, CC BY 2.0); Aqueduct Racetrack, Queens
+        (Anthony Albright, CC BY-SA 2.0). </p>
+    </div>
+    <div class="container image">
+      <div class="annotate">
+        <img src="images/nyc_fullvax_map.png" />
+        <div id="javits" class="dot green">
+          <a class="close fa fa-times" href="#"></a>
+          <div class="inner">
+            <h3>Javits Center</h3>
+            <p>429 11th Ave., New York, NY 10018</p>
+          </div>
+        </div>
+        <div id="medgar" class="dot green">
+          <a class="close fa fa-times" href="#"></a>
+          <div class="inner">
+            <h3>Medgar Evers College</h3>
+            <p>231 Crown St., Brooklyn, NY 11225</p>
+          </div>
+        </div>
+        <div id="york" class="dot green">
+          <a class="close fa fa-times" href="#"></a>
+          <div class="inner">
+            <h3>York College</h3>
+            <p>160-02 Liberty Ave., Jamaica, NY 11433</p>
+          </div>
+        </div>
+        <div id="aqueduct" class="dot green">
+          <a class="close fa fa-times" href="#"></a>
+          <div class="inner">
+            <h3>Aqueduct Racetrack</h3>
+            <p>Racing Hall, 110-00 Rockaway Blvd., South Ozone Park, NY 11420</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Your javascript should be called here -->
+    <script src="main.js"></script>
+  </body>
+
+</html>
