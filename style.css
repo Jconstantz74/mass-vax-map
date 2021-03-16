@@ -48,10 +48,27 @@ header p {
     margin: 0;
 }
 
+.container {}
+
 .collage {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+a:link {
+    text-decoration: none;
+    color: #375971
+}
+
+a:visited {
+    text-decoration: none;
+    color: #375971
+}
+
+a:hover {
+    text-decoration: none;
+    color: #1e303e
 }
 
 .collage .img {
