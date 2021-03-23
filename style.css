@@ -192,9 +192,7 @@ figcaption {
 /** Container styles to keep content from becoming too wide or coming too close to
 * mobile edge */
 .container {
-    max-width: 800px;
-    display: block;
-    margin: 10px auto;
+    margin: 15px;
 }
 
 /** Images are allowed to be a little wider when broken out into their own container */
